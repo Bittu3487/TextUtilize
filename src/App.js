@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+
 import Navbar from './components/Navbar';
 import TeaxtArea from './components/TeaxtArea';
 import { useState } from 'react';
@@ -38,7 +37,7 @@ function App() {
     <Alert alert={alert}/>
 
     <div className='container my-3'>
-      <TeaxtArea showAlert={showAlert} />
+    <TeaxtArea showAlert={showAlert} />
     </div>
     </>
   );
